@@ -1,0 +1,74 @@
+// It's highly recommended to change the default colors
+// to match your app's branding.
+
+// -------------------------------------------------------------
+// common (background, etc...)
+
+$card-border-radius = 3px
+$background = #101116
+
+$body-background = $background
+
+// -------------------------------------------------------------
+// topology browser
+
+$layout-header-background = #27282C
+$layout-header-topologyfilter-background = #3B3C3F
+$card-background = #1B1C20
+$card-title-text = #D1D1D2
+$card-subtitle-text = #9A9B9D
+$card-chip-version-bg = #121316
+$card-chip-text = #5F6063
+$card-success-icon = #26AF81
+$card-warning-icon = #FFC93C
+$card-error-icon = #FD5252
+$card-error-side-bg = #602517
+$card-error-main-bg = #41211B
+$card-deployment-bg = #26272B
+
+// -------------------------------------------------------------
+// graph
+
+$graph-topic-external-bg = #d0c9a9
+$graph-topic-topology-bg = #51c5b0
+$graph-application-topology-bg = #ead160
+$graph-edge-consume-info = #14bb64
+$graph-edge-consume-warning = #FFC93C
+$graph-edge-consume-error = #602517
+$graph-edge-produce = #275fa0
+$graph-edge-other = #333
+$graph-edge-text = $card-title-text
+
+// -------------------------------------------------------------
+// deployment actions
+
+$deployment-action-text = $card-title-text
+$deployment-action-text-safety = $card-subtitle-text
+
+// -------------------------------------------------------------
+// built-in quasar variables
+
+$primary   = $layout-header-background
+$secondary = $card-background
+$tertiary  = $layout-header-topologyfilter-background
+
+//$primary   = #027be3
+//$secondary = #26A69A
+//$tertiary  = #555
+
+$neutral   = #E0E1E2
+$positive  = #21BA45
+$negative  = #DB2828
+$info      = #31CCEC
+$warning   = #F2C037
+
+// xl is bigger than the default (1199px) so that the main topology browser uses 3 columns only if it's really wide
+$sizes = {
+    xs: 0,
+    sm: 575px
+    md: 767px
+    lg: 991px
+    xl: 1549px
+}
+
+@import '~quasar-variables'
