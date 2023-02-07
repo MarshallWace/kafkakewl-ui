@@ -1,6 +1,6 @@
 # **kafkakewl-ui** Introduction
 
-**kafkakewl-ui** is a web-app that shows **kafkakewl** topologies, deployments, metrics, statuses.
+**kafkakewl-ui** is a web-app that shows [**kafkakewl**](https://github.com/MarshallWace/kafkakewl/tree/legacy-main) topologies, deployments, metrics, statuses.
 
 # License
 
