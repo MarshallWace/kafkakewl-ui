@@ -10,9 +10,9 @@ It's licensed under [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html#licen
 
 ## History
 
-There is already a working version which we'd like to redesign and rewrite to work better in a number of use-cases, e.g. integrating with gitops workflows, deploying different topologies in different kafka-clusters.
+There is already an [existing, working version](https://github.com/MarshallWace/kafkakewl-ui/tree/legacy-main) which we'd like to redesign and rewrite to work better in a number of use-cases, e.g. integrating with gitops workflows, deploying different topologies in different kafka-clusters.
 
-This existing version is in maintenance mode, not actively worked on. Feel free to check it out here, but we won't support it in the future.
+This existing version is in maintenance mode, not actively worked on. Feel free to check it out, but we won't support it in the future.
 
 ## Current status
 
